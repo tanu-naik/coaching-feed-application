@@ -1,4 +1,4 @@
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8800";
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://feed-application-backend.onrender.com/";
 
 export const createFeed = async (payload) => {
     const res = await fetch(`${API_URL}/create-feed`, {
